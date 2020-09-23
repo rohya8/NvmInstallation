@@ -1,5 +1,6 @@
 # Installation guide for NVM in windows
-Node Version Manager (NVM) on Windows
+ nvm (Node Version Manager) is a tool used to download and install multiple Node.js versions.
+ npm (Node Package Manager) is a tool that allows you to install javascript packages.
 
 ### Prerequisite:
 
@@ -29,9 +30,9 @@ Node Version Manager (NVM) on Windows
  a. Add in Environment variable: 
     Nodejs, Nvm and Npm installation directory path
 
-    * C:\Program Files\nodejs 
-    * C:\Users\[Your User]\AppData\Roaming\nvm
-    * C:\Users\[Your User]\AppData\Roaming\npm
+    ### C:\Program Files\nodejs 
+    ### C:\Users\[Your User]\AppData\Roaming\nvm
+    ### C:\Users\[Your User]\AppData\Roaming\npm
 
  5. Install node js using nvm : nvm install <version> : The version can be a node.js version or "latest" for the latest stable version
 
