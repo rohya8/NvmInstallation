@@ -4,18 +4,14 @@
 
 ### Prerequisite:
 
- Uninstall existing node
- Uninstall existing npm
+ Uninstall existing version of node since we won’t be using it anymore<br />
+ Delete any existing nodejs installation directories.( e.g. “C:\Program Files\nodejs” OR C:\Program Files (x86)\nodejs ) that might remain. NVM’s generated symlink will not overwrite an existing (even empty) installation directory.<br />
 
- Uninstall existing version of node since we won’t be using it anymore
- Delete any existing nodejs installation directories.( e.g. “C:\Program Files\nodejs” OR C:\Program Files (x86)\nodejs ) that might remain. NVM’s generated symlink will not overwrite an existing (even empty) installation directory.
+ Delete the npm install directory at C:\Users\[Your User]\AppData\Roaming\npm We are now ready to install nvm. Download the installer from [Here] (https://github.com/coreybutler/nvm/releases)<br />
 
- Delete the npm install directory at C:\Users\[Your User]\AppData\Roaming\npm We are now ready to install nvm. Download the installer from [Here] (https://github.com/coreybutler/nvm/releases)
+ Delete the existence of nvm (C:\Users\xxx\AppData\Roaming\nvm), basically, manually delete the nvm dir.<br />
 
- Delete the existence of nvm (C:\Users\xxx\AppData\Roaming\nvm), basically, manually delete the nvm dir.
-
- To upgrade, run the new installer. It will safely overwrite the files it needs to update without touching your node.js installations. Make sure you use the same installation and symlink folder. If you originally installed to the default locations, you just need to click “next” on each window until it finishes.
-
+ To upgrade, run the new installer. It will safely overwrite the files it needs to update without touching your node.js installations. Make sure you use the same installation and symlink folder. If you originally installed to the default locations, you just need to click “next” on each window until it finishes.<br />
 
 ### Installation
 
@@ -85,8 +81,10 @@
 
 ### Errors
   - If you get error like npm/nvm/node not recognized as an internal or external command => follow step 4
+  
   - "nvm use" doesn't Switch node version => (Workaround) rename "C:\Program Files\nodejs" to "C:\Program Files\nodejsx"
     > Problem persist if nodejs directory exists, since nvm can not change it to a symlink and fails
+    
   - While executing `nvm install <version number>` command, error: Could not retrieve ..... => Try `nvm proxy [url of your proxy server]`
     
 ### Reference Links
