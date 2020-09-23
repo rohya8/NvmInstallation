@@ -30,7 +30,7 @@
   - Add in Environment variable: 
     Nodejs, Nvm and Npm installation directory path
 
-    - C:\Program Files\nodejs 
+    - C:\Program Files\nodejs  	                > Nodejs directory path
     - C:\Users\[Your User]\AppData\Roaming\nvm
     - C:\Users\[Your User]\AppData\Roaming\npm
 
