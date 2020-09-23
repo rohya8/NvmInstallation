@@ -3,17 +3,17 @@ Node Version Manager (NVM) on Windows
 
 ### Prerequisite:
 
-Uninstall existing node
-Uninstall existing npm
+ Uninstall existing node
+ Uninstall existing npm
 
-Uninstall existing version of node since we won’t be using it anymore
-Delete any existing nodejs installation directories.( e.g. “C:\Program Files\nodejs” OR C:\Program Files (x86)\nodejs ) that might remain. NVM’s generated symlink will not overwrite an existing (even empty) installation directory.
+ Uninstall existing version of node since we won’t be using it anymore
+ Delete any existing nodejs installation directories.( e.g. “C:\Program Files\nodejs” OR C:\Program Files (x86)\nodejs ) that might remain. NVM’s generated symlink will not overwrite an existing (even empty) installation directory.
 
-Delete the npm install directory at C:\Users\[Your User]\AppData\Roaming\npm We are now ready to install nvm. Download the installer from [Here](https://github.com/coreybutler/nvm/releases)
+ Delete the npm install directory at C:\Users\[Your User]\AppData\Roaming\npm We are now ready to install nvm. Download the installer from [Here] (https://github.com/coreybutler/nvm/releases)
 
-Delete the existence of nvm (C:\Users\xxx\AppData\Roaming\nvm), basically, manually delete the nvm dir.
+ Delete the existence of nvm (C:\Users\xxx\AppData\Roaming\nvm), basically, manually delete the nvm dir.
 
-To upgrade, run the new installer. It will safely overwrite the files it needs to update without touching your node.js installations. Make sure you use the same installation and symlink folder. If you originally installed to the default locations, you just need to click “next” on each window until it finishes.
+ To upgrade, run the new installer. It will safely overwrite the files it needs to update without touching your node.js installations. Make sure you use the same installation and symlink folder. If you originally installed to the default locations, you just need to click “next” on each window until it finishes.
 
 
 ### Installation
@@ -44,43 +44,43 @@ To upgrade, run the new installer. It will safely overwrite the files it needs t
  9. If you want to use specific node version do - nvm use <version>
 
 
-###  NVM Basic Commands
+### NVM Basic Commands
 
 + View remote available versions of Node.
 
-```sh
-$ nvm ls-remote
-```
+  ```sh
+  $ nvm ls-remote
+  ```
 
 + View local installed versions.
 
-```sh
-$ nvm ls
-```
+  ```sh
+  $ nvm ls
+  ```
 
 + Install a specific version.
 
-```sh
-$ nvm install <version number>
-```
+  ```sh
+  $ nvm install <version number>
+  ```
 
 + Switch to a specific version of Node.
 
-```sh
-$ nvm use <version number>
-```
+  ```sh
+  $ nvm use <version number>
+  ```
 
 + Uninstall a specific version.
 
-```sh
-$ nvm uninstall <version number>
-```
+  ```sh
+  $ nvm uninstall <version number>
+  ```
 
 + Displays the current running version of NVM for Windows.
 
-```sh
-$ nvm version 
-```
+  ```sh
+  $ nvm version 
+  ```
 
 ### Errors
   - If you get error like npm/nvm/node not recognized as an internal or external command => follow step 4
@@ -88,8 +88,7 @@ $ nvm version
     > Problem persist if nodejs directory exists, since nvm can not change it to a symlink and fails
   - While executing `nvm install <version number>` command, error: Could not retrieve ..... => Try `nvm proxy [url of your proxy server]`
     
-
-#### Reference Links
+### Reference Links
 
 * [nvm-windows]
 * [MS DOCS]
