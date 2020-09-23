@@ -1,17 +1,18 @@
 # Installation guide for NVM in windows
- nvm (Node Version Manager) is a tool used to download and install multiple Node.js versions.<br />
- npm (Node Package Manager) is a tool that allows you to install javascript packages.<br />
+ **nvm** (Node Version Manager) is a tool used to download and install multiple Node.js versions.<br />
+ **npm** (Node Package Manager) is a tool that allows you to install javascript packages.<br />
 
 ### Prerequisite:
 
  Uninstall existing version of node since we won’t be using it anymore<br />
  Delete any existing nodejs installation directories.( e.g. “C:\Program Files\nodejs” OR C:\Program Files (x86)\nodejs ) that might remain. NVM’s generated symlink will not overwrite an existing (even empty) installation directory.<br />
 
- Delete the npm install directory at C:\Users\[Your User]\AppData\Roaming\npm We are now ready to install nvm. Download the installer from [Here] (https://github.com/coreybutler/nvm/releases)<br />
+ Delete the npm install directory at C:\Users\[Your User]\AppData\Roaming\npm<br />
+ We are now ready to install nvm. Download the installer from [Here] (https://github.com/coreybutler/nvm/releases)<br />
 
  Delete the existence of nvm (C:\Users\xxx\AppData\Roaming\nvm), basically, manually delete the nvm dir.<br />
 
- To upgrade, run the new installer. It will safely overwrite the files it needs to update without touching your node.js installations. Make sure you use the same installation and symlink folder. If you originally installed to the default locations, you just need to click “next” on each window until it finishes.<br />
+ To upgrade, run the **new installer**. It will safely overwrite the files it needs to update without touching your node.js installations. Make sure you use the same installation and symlink folder. If you originally installed to the default locations, you just need to click “next” on each window until it finishes.<br />
 
 ### Installation
 
@@ -23,7 +24,7 @@
 
  4. Check if nvm properly installed, In new command prompt type nvm.
 
-  - Add in Environment variable: 
+  - **Environment variable**: 
     Nodejs, Nvm and Npm installation directory path
 
     - C:\Program Files\nodejs  	                > Nodejs directory path
