@@ -1,7 +1,7 @@
 # Installation guide for NVM in windows
 Node Version Manager (NVM) on Windows
-https://digitaldrummerj.me/windows-running-multiple-versions-of-node/
-https://stackoverflow.com/questions/28313372/nvm-for-windows-not-working
+
+
 
 
 
@@ -50,34 +50,49 @@ To upgrade, run the new installer. It will safely overwrite the files it needs t
 
 ###  NVM Basic Commands
 
-View remote available versions of Node.
++ View remote available versions of Node.
 
 ```sh
-nvm ls-remote
+$ nvm ls-remote
 ```
 
-View local installed versions.
++ View local installed versions.
 
 ```sh
-nvm ls
+$ nvm ls
 ```
 
-Install a specific version.
++ Install a specific version.
+
 ```sh
-nvm install <version number>
+$ nvm install <version number>
 ```
-Switch to a specific version of Node.
-```sh 
-nvm use <version number>
-```
-Uninstall a specific version.
+
++ Switch to a specific version of Node.
+
 ```sh
-nvm uninstall <version number>
+$ nvm use <version number>
 ```
-Displays the current running version of NVM for Windows.
+
++ Uninstall a specific version.
+
 ```sh
-nvm version 
+$ nvm uninstall <version number>
 ```
+
++ Displays the current running version of NVM for Windows.
+
+```sh
+$ nvm version 
+```
+
+#### Reference Links
+
+* [DigitalDrummerj]
+* [MS DOCS]
+
+[DigitalDrummerj]: https://digitaldrummerj.me/windows-running-multiple-versions-of-node/
+[MS DOCS]: https://docs.microsoft.com/en-us/windows/nodejs/setup-on-windows
 
 **Please feel free to contribute to the project,create a pull request**
 
