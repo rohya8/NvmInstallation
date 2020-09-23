@@ -30,9 +30,9 @@
   - Add in Environment variable: 
     Nodejs, Nvm and Npm installation directory path
 
-   - C:\Program Files\nodejs 
-   - C:\Users\[Your User]\AppData\Roaming\nvm
-   - C:\Users\[Your User]\AppData\Roaming\npm
+    - C:\Program Files\nodejs 
+    - C:\Users\[Your User]\AppData\Roaming\nvm
+    - C:\Users\[Your User]\AppData\Roaming\npm
 
  5. Install node js using nvm : nvm install <version> : The version can be a node.js version or "latest" for the latest stable version
 
