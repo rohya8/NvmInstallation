@@ -48,9 +48,7 @@ To upgrade, run the new installer. It will safely overwrite the files it needs t
 
 + View remote available versions of Node.
 
-```sh
-$ nvm ls-remote
-```
+`$ nvm ls-remote`
 
 + View local installed versions.
 
