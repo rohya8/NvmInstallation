@@ -1,6 +1,6 @@
 # Installation guide for NVM in windows
- nvm (Node Version Manager) is a tool used to download and install multiple Node.js versions.
- npm (Node Package Manager) is a tool that allows you to install javascript packages.
+ nvm (Node Version Manager) is a tool used to download and install multiple Node.js versions.<br />
+ npm (Node Package Manager) is a tool that allows you to install javascript packages.<br />
 
 ### Prerequisite:
 
