@@ -1,10 +1,6 @@
 # Installation guide for NVM in windows
 Node Version Manager (NVM) on Windows
 
-
-
-
-
 ### Prerequisite:
 
 Uninstall existing node
@@ -30,7 +26,7 @@ To upgrade, run the new installer. It will safely overwrite the files it needs t
 
  4. Check if nvm properly installed, In new command prompt type nvm.
 
-  - Add in Environment variable: 
+ a. Add in Environment variable: 
     Nodejs, Nvm and Npm installation directory path
 
     * C:\Program Files\nodejs 
@@ -85,6 +81,10 @@ $ nvm uninstall <version number>
 ```sh
 $ nvm version 
 ```
+
+### Errors
+  - If you get error like npm/nvm/node not recognized as an internal or external command => Go to step 4
+
 
 #### Reference Links
 
