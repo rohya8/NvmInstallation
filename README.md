@@ -24,7 +24,7 @@
 
  4. Check if nvm properly installed, In new command prompt type nvm.
 
-  - **Environment variable**: 
+  - Environment variable : 
     Nodejs, Nvm and Npm installation directory path
 
     - C:\Program Files\nodejs  	                > Nodejs directory path
