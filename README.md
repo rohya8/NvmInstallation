@@ -9,7 +9,7 @@ Uninstall existing npm
 Uninstall existing version of node since we won’t be using it anymore
 Delete any existing nodejs installation directories.( e.g. “C:\Program Files\nodejs” OR C:\Program Files (x86)\nodejs ) that might remain. NVM’s generated symlink will not overwrite an existing (even empty) installation directory.
 
-Delete the npm install directory at C:\Users\[Your User]\AppData\Roaming\npm We are now ready to install nvm. Download the installer from https://github.com/coreybutler/nvm/releases
+Delete the npm install directory at C:\Users\[Your User]\AppData\Roaming\npm We are now ready to install nvm. Download the installer from [Here](https://github.com/coreybutler/nvm/releases)
 
 Delete the existence of nvm (C:\Users\xxx\AppData\Roaming\nvm), basically, manually delete the nvm dir.
 
@@ -48,7 +48,9 @@ To upgrade, run the new installer. It will safely overwrite the files it needs t
 
 + View remote available versions of Node.
 
-`$ nvm ls-remote`
+```sh
+$ nvm ls-remote
+```
 
 + View local installed versions.
 
@@ -81,16 +83,20 @@ $ nvm version
 ```
 
 ### Errors
-  - If you get error like npm/nvm/node not recognized as an internal or external command => Go to step 4
-
+  - If you get error like npm/nvm/node not recognized as an internal or external command => follow step 4
+  - "nvm use" doesn't Switch node version => (Workaround) rename "C:\Program Files\nodejs" to "C:\Program Files\nodejsx"
+    > Problem persist if nodejs directory exists, since nvm can not change it to a symlink and fails
+  - While executing `nvm install <version number>` command, error: Could not retrieve ..... => Try `nvm proxy [url of your proxy server]`
+    
 
 #### Reference Links
 
-* [DigitalDrummerj]
+* [nvm-windows]
 * [MS DOCS]
 
-[DigitalDrummerj]: https://digitaldrummerj.me/windows-running-multiple-versions-of-node/
+[nvm-windows]: https://digitaldrummerj.me/windows-running-multiple-versions-of-node/
 [MS DOCS]: https://docs.microsoft.com/en-us/windows/nodejs/setup-on-windows
+
 
 **Please feel free to contribute to the project,create a pull request**
 
