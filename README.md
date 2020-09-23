@@ -51,13 +51,17 @@ To upgrade, run the new installer. It will safely overwrite the files it needs t
 ###  NVM Basic Commands
 
 View remote available versions of Node.
+
 ```sh
 nvm ls-remote
 ```
+
 View local installed versions.
+
 ```sh
 nvm ls
 ```
+
 Install a specific version.
 ```sh
 nvm install <version number>
